@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1321;
+}
+
+header {
+    background-image: linear-gradient(#1D2D44, #0D1321);
+    background-color: #1D2D44;
+    color: #fff;
+    text-align: center;
+    
+}
+
+@font-face {
+    font-family: 'cascadia-code';
+    src: url(../assets/woff2/CascadiaCode.woff2);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 15px;
+}
+
+.navbar-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: #0D1321;
+    box-shadow: -3px -4px #3E5C76;
+}
+
+.nav-text{
+    font-weight: 200;
+    font-family: 'cascadia-code';
+    color: white;
+}
+
+main {
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+a, a:visited{
+    color: #F0EBD8;
+    text-decoration: none
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    height: 400px;
+    width: 320px;
+    background-color: #1D2D44;
+    box-shadow: -6px -8px #3E5C76;
+}
