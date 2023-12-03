@@ -6,14 +6,16 @@ body {
 }
 
 header {
+    background-image: linear-gradient(#1D2D44, #0D1321);
     background-color: #1D2D44;
     color: #fff;
     text-align: center;
+    
 }
 
 @font-face {
     font-family: 'cascadia-code';
-    src: url(assets/woff2/CascadiaCode.woff2);
+    src: url(../assets/woff2/CascadiaCode.woff2);
 }
 
 .navbar{
@@ -49,13 +51,16 @@ main {
     text-align: center;
 }
 
+
 h1, h2{
     font-family: 'cascadia-code';
     color: white;
 }
 
+h1 {
+    padding-bottom: 50px;
+}
+
 a, a:visited{
     color: #F0EBD8
 }
-
-
