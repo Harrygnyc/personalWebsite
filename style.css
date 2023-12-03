@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1321;
+}
+
+header {
+    background-color: #1D2D44;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+@font-face {
+    font-family: 'cascadia-code';
+    src: url(assets/woff2/CascadiaCode.woff2);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.navbar-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+    background-color: #0D1321;
+}
+
+.nav-text{
+    font-weight: 200;
+    font-family: cascadia-code;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
