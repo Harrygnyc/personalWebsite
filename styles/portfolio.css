@@ -1,5 +1,4 @@
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #0D1321;
@@ -10,7 +9,6 @@ header {
     background-color: #1D2D44;
     color: #fff;
     text-align: center;
-    
 }
 
 @font-face {
@@ -35,6 +33,7 @@ header {
     height: 40px;
     background-color: #0D1321;
     box-shadow: -3px -4px #3E5C76;
+    border-radius: 4px;
 }
 
 .nav-text{
@@ -46,7 +45,6 @@ header {
 main {
     margin: 0 auto;
     padding: 2em;
-    display: flex;
     justify-content: center;
 }
 
@@ -57,16 +55,32 @@ a, a:visited{
 
 .card-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+    width: minmax(1fr,3fr);
+    grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
+    justify-items: center;
 }
 
 .card{
     display: flex;
+    flex-direction: column;
     height: 400px;
     width: 320px;
+    align-items: center;
+    margin: 20px;
     background-color: #1D2D44;
-    box-shadow: -6px -8px #3E5C76;
+    box-shadow: -6px -4px #3E5C76;
+    border-radius: 4px;
+}
+
+h1, p{
+    font-family: 'cascadia-code';
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+img{
+    max-width: 70%;
+    max-height: 70%;
+    padding-top: 10%;
 }
