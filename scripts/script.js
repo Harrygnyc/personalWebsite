@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
       'Giracochay',
       'Gear-uh-coach-hay',
       'Guiracoche',
-      // Add more texts as needed
+      // Add more texts as neededa
     ];
     
     let currentIndex = 0;
